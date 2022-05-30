@@ -1,0 +1,3 @@
+#!  /bin/sh
+chmod 400 devopskey.pem
+ssh-keygen -y -f /path_to_key_pair/devopskey.pem >> terraform_ec2_key.pub
